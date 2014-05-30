@@ -9,14 +9,14 @@
     "url": "http://joakim.beng.se"
   }, {
     "name": "Tyler Henkel",
-    "url": "tylerhenkel.com"
+    "url": "http://tylerhenkel.com"
   }],
   "repository": {
     "type": "git",
     "url": "git://github.com/daftmonk/grunt-asset-injector.git"
   },
   "bugs": {
-    "url": "https://github.com/klei/grunt-injector/issues"
+    "url": "https://github.com/daftmonk/grunt-injector/issues"
   },
   "licenses": [
     {
