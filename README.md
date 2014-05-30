@@ -1,6 +1,6 @@
 # grunt-asset-injector
 
-> Inject references to files into other files (think scripts and stylesheets into an html file)
+> Inject references to files into other files (think scripts and stylesheets into an html file).
 > Forked from grunt-injector to remove stale file references in injection blocks
 
 ## Getting Started
