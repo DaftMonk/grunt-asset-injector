@@ -1,0 +1,55 @@
+{
+  "name": "grunt-asset-injector",
+  "description": "Inject references to files into other files (think scripts and stylesheets into an html file)",
+  "version": "0.1.0",
+  "homepage": "https://github.com/daftmonk/grunt-asset-injector",
+  "authors": [{
+    "name": "Joakim Bengtson",
+    "email": "joakim@klei.se",
+    "url": "http://joakim.beng.se"
+  }, {
+    "name": "Tyler Henkel",
+    "url": "tylerhenkel.com"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/daftmonk/grunt-asset-injector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/klei/grunt-injector/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/daftmonk/grunt-asset-injector/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin",
+    "inject",
+    "stylesheets",
+    "scripts",
+    "index",
+    "bower"
+  ],
+  "dependencies": {
+    "wiredep": "~0.4.2",
+    "lodash": "~2.4.1"
+  }
+}
