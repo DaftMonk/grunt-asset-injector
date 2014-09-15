@@ -1,3 +1,11 @@
+***
+
+> ##DEPRECATED
+
+> ###Use https://github.com/klei/grunt-injector instead! 
+
+***
+
 # grunt-asset-injector
 
 > Inject references to files into other files (think scripts and stylesheets into an html file).
