@@ -125,6 +125,12 @@ module.exports = function(grunt) {
             obj.transformed = options.transform(obj.file, i, sources.length);
           });
 
+          // Remove the entry whose transformed string is empty since we don't want to inject empty string.
+          // This is one "trick" for user to filter out unwanted files.   
+          sources = _.reject(sources, function (obj) {
+            return _.isEmpty(obj.transformed);
+          });
+
           // Sort files if needed:
           if (typeof options.sort === 'function') {
             sources.sort(function (a, b) {
