@@ -3,14 +3,17 @@
   "description": "Inject references to files into other files (think scripts and stylesheets into an html file)",
   "version": "0.1.0",
   "homepage": "https://github.com/daftmonk/grunt-asset-injector",
-  "authors": [{
-    "name": "Joakim Bengtson",
-    "email": "joakim@klei.se",
-    "url": "http://joakim.beng.se"
-  }, {
-    "name": "Tyler Henkel",
-    "url": "http://tylerhenkel.com"
-  }],
+  "authors": [
+    {
+      "name": "Joakim Bengtson",
+      "email": "joakim@klei.se",
+      "url": "http://joakim.beng.se"
+    },
+    {
+      "name": "Tyler Henkel",
+      "url": "http://tylerhenkel.com"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/daftmonk/grunt-asset-injector.git"
@@ -38,7 +41,7 @@
     "grunt": "~0.4.1"
   },
   "peerDependencies": {
-    "grunt": "~0.4.1"
+    "grunt": ">=0.4.0"
   },
   "keywords": [
     "gruntplugin",
